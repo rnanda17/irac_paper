@@ -1,0 +1,69 @@
+{
+  "Q1": {
+    "C1": {
+      "rules_selected": ["BBNJ_M043", "BBNJ_M044", "BBNJ_M047","BBNJ_M045","BBNJ_M035","BBNJ_M046"],
+      "edges_support": [
+        "BBNJ_M043|C1",
+        "BBNJ_M044|C1",
+        "BBNJ_M047|C1",
+        "BBNJ_M045|C1",
+        "BBNJ_M035|C1",
+        "BBNJ_M046|C1",
+        "BBNJ_M043|BBNJ_M044",
+        "BBNJ_M043|BBNJ_M047",
+        "BBNJ_M045|BBNJ_M035",
+        "BBNJ_M046|BBNJ_M035"
+      ]
+    },
+    "C2": {
+      "rules_selected": ["BBNJ_M043", "BBNJ_M047", "BBNJ_M044", "BBNJ_M035", "BBNJ_M045"],
+      "edges_support": [
+        "BBNJ_M043|C2",
+        "BBNJ_M047|C2",
+        "BBNJ_M044|C2",
+        "BBNJ_M035|C2",
+        "BBNJ_M045|C2"
+      ]
+    }
+  },
+  "Q2": {
+    "C1": { "rules_selected": ["CBD_M019","CBD_M029","NAGOYA_M008","NAGOYA_M013","NAGOYA_M014","NAGOYA_M016","NAGOYA_M026",
+    "NAGOYA_M004", "NAGOYA_M006", "NAGOYA_M032", "NAGOYA_M048"],
+
+     "edges_support": [
+       "CBD_M019|C1",
+       "CBD_M029|C1",
+       "NAGOYA_M008|C1",
+       "NAGOYA_M013|C1",
+       "NAGOYA_M014|C1",
+       "NAGOYA_M016|C1",
+       "NAGOYA_M026|C1",
+       "NAGOYA_M048|C1",
+       "NAGOYA_M004|C1",
+       "NAGOYA_M006|C1",
+       "NAGOYA_M032|C1",
+       "NAGOYA_M008|NAGOYA_M014",
+       "NAGOYA_M016|NAGOYA_M004",
+       "NAGOYA_M016|NAGOYA_M006",
+       "NAGOYA_M026|NAGOYA_M016",
+       "NAGOYA_M032|NAGOYA_M013"
+     ] },
+
+    "C2": { "rules_selected": ["CBD_M019","CBD_M029","NAGOYA_M008","NAGOYA_M013","NAGOYA_M014","NAGOYA_M016","NAGOYA_M026",
+    "NAGOYA_M004", "NAGOYA_M006", "NAGOYA_M032", "NAGOYA_M048"],
+
+     "edges_support": [
+      "CBD_M019|C2",
+      "CBD_M029|C2",
+      "NAGOYA_M008|C2",
+      "NAGOYA_M014|C2",
+      "NAGOYA_M016|C2",
+      "NAGOYA_M026|C2",
+      "NAGOYA_M013|C2",
+      "NAGOYA_M048|C2",
+      "NAGOYA_M008|NAGOYA_M014",
+      "NAGOYA_M016|NAGOYA_M026",
+      "CBD_M019|CBD_M029"
+     ] }
+  }
+}
