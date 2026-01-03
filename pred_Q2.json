@@ -1,0 +1,77 @@
+{
+  "question_number": "Q2",
+  "irac_C1": {
+    "issue": "Whether Argentina was required to ensure the Brazilian researcher engaged with the Indigenous community to obtain their prior informed consent or approval and involvement and establish mutually agreed terms before accessing marine genetic resources with which the community has associated traditional knowledge.",
+    "rules_selected": [
+      {
+        "id": "CBD_M019",
+        "text": "(j) Subject to its national legislation, respect, preserve and maintain knowledge, innovations and practices of indigenous and local communities embodying traditional lifestyles relevant for the conservation and sustainable use of biological diversity and promote their wider application with the approval and involvement of the holders of such knowledge, innovations and practices and encourage the equitable sharing of the benefits arising from the utilization of such knowledge, innovations and practices;"
+      },
+      {
+        "id": "NAGOYA_M016",
+        "text": "In accordance with domestic law, each Party shall take measures, as appropriate, with the aim of ensuring that traditional knowledge associated with genetic resources that is held by indigenous and local communities is accessed with the prior and informed consent or approval and involvement of these indigenous and local communities, and that mutually agreed terms have been established."
+      },
+      {
+        "id": "NAGOYA_M008",
+        "text": "2. In accordance with domestic law, each Party shall take measures, as appropriate, with the aim of ensuring that the prior informed consent or approval and involvement of indigenous and local communities is obtained for access to genetic resources where they have the established right to grant access to such resources."
+      },
+      {
+        "id": "NAGOYA_M026",
+        "text": "1. In implementing their obligations under this Protocol, Parties shall in accordance with domestic law take into consideration indigenous and local communities\u2019 customary laws, community protocols and procedures, as applicable, with respect to traditional knowledge associated with genetic resources."
+      },
+      {
+        "id": "NAGOYA_M048",
+        "text": "1. Each Party shall take appropriate, effective and proportionate legislative, administrative or policy measures, as appropriate, to provide that traditional knowledge associated with genetic resources utilized within their jurisdiction has been accessed in accordance with prior informed consent or approval and involvement of indigenous and local communities and that mutually agreed terms have been established, as required by domestic access and benefit-sharing legislation or regulatory requirements of the other Party where such indigenous and local communities are located."
+      }
+    ],
+    "analysis": "The conclusion that Argentina was required to ensure community engagement is strongly supported by its obligations under the CBD and Nagoya Protocol. The foundational duty is established in CBD_M019, which obligates Argentina to \u201crespect, preserve and maintain\u201d the Indigenous community\u2019s traditional knowledge (TK) and to \u201cpromote their wider application with the approval and involvement of the holders of such knowledge.\u201d The facts clearly state the community has TK associated with the biological properties of the marine genetic resources (MGRs). By granting a permit for academic research without any community involvement, Argentina failed to secure the community\u2019s \u201capproval and involvement,\u201d directly contravening this provision.\n\nThe Nagoya Protocol further specifies this duty. NAGOYA_M016 is particularly direct, requiring Parties to take measures to ensure that TK associated with genetic resources is accessed with the \u201cprior and informed consent or approval and involvement\u201d of the community and that \u201cmutually agreed terms have been established.\u201d The facts confirm that TK is associated with the MGRs, yet the researcher did not engage the community, no PIC or approval was sought, and no MAT were established. Argentina\u2019s issuance of a permit in the absence of these elements constitutes a failure to implement the measures required by this article.\n\nFurthermore, NAGOYA_M008 extends this logic to the genetic resources themselves. It requires PIC from IPLCs for access to genetic resources \u201cwhere they have the established right to grant access.\u201d The community\u2019s \u201clongstanding custodianship of the surrounding marine environment\u201d can be interpreted as constituting such an established right, triggering the need for their consent for access to the MGRs, not just the TK. Argentina\u2019s process ignored this potential right entirely. This failure is compounded by the disregard of NAGOYA_M026, which requires Parties to \u201ctake into consideration\u201d the community\u2019s customary laws and protocols. By allowing the researcher to bypass the community, Argentina made it impossible for any consideration of their laws or procedures to occur. Finally, NAGOYA_M048, which places a downstream obligation on Brazil, underscores the expectation that access at the source (Argentina) must comply with PIC and MAT requirements for TK. Argentina\u2019s failure to enforce these foundational requirements at the point of access undermines the entire regulatory system envisioned by the Protocol.",
+    "conclusion": "This supports C1.",
+    "edges_support": [
+      "CBD_M019|C1",
+      "NAGOYA_M016|C1",
+      "NAGOYA_M008|C1",
+      "NAGOYA_M026|C1",
+      "NAGOYA_M048|C1",
+      "NAGOYA_M016|CBD_M019",
+      "NAGOYA_M008|CBD_M019",
+      "NAGOYA_M026|NAGOYA_M016"
+    ]
+  },
+  "irac_C2": {
+    "issue": "Whether Argentina was permitted to grant access to marine genetic resources and associated traditional knowledge based on its state authority without requiring engagement with the Indigenous community because such engagement is only mandated where specified by domestic law.",
+    "rules_selected": [
+      {
+        "id": "NAGOYA_M008",
+        "text": "2. In accordance with domestic law, each Party shall take measures, as appropriate, with the aim of ensuring that the prior informed consent or approval and involvement of indigenous and local communities is obtained for access to genetic resources where they have the established right to grant access to such resources."
+      },
+      {
+        "id": "NAGOYA_M016",
+        "text": "In accordance with domestic law, each Party shall take measures, as appropriate, with the aim of ensuring that traditional knowledge associated with genetic resources that is held by indigenous and local communities is accessed with the prior and informed consent or approval and involvement of these indigenous and local communities, and that mutually agreed terms have been established."
+      },
+      {
+        "id": "CBD_M019",
+        "text": "(j) Subject to its national legislation, respect, preserve and maintain knowledge, innovations and practices of indigenous and local communities embodying traditional lifestyles relevant for the conservation and sustainable use of biological diversity and promote their wider application with the approval and involvement of the holders of such knowledge, innovations and practices and encourage the equitable sharing of the benefits arising from the utilization of such knowledge, innovations and practices;"
+      },
+      {
+        "id": "NAGOYA_M014",
+        "text": "3. Pursuant to paragraph 1 above, each Party requiring prior informed consent shall take the necessary legislative, administrative or policy measures, as appropriate, to: ... (f) Where applicable, and subject to domestic legislation, set out criteria and/or processes for obtaining prior informed consent or approval and involvement of indigenous and local communities for access to genetic resources; and"
+      },
+      {
+        "id": "NAGOYA_M013",
+        "text": "3. Pursuant to paragraph 1 above, each Party requiring prior informed consent shall take the necessary legislative, administrative or policy measures, as appropriate, to: ... (e) Provide for the issuance at the time of access of a permit or its equivalent as evidence of the decision to grant prior informed consent and of the establishment of mutually agreed terms, and notify the Access and Benefitsharing Clearing-House accordingly;"
+      }
+    ],
+    "analysis": "The conclusion that Argentina\u2019s actions were permissible rests on the repeated qualifications within the treaty text that subordinate international obligations to national law and state discretion. The primary obligation regarding access to genetic resources, NAGOYA_M008, is doubly qualified. It requires community PIC only \u201cwhere they have the established right to grant access,\u201d a condition determined \u201cIn accordance with domestic law.\u201d The facts mention \u201clongstanding custodianship,\u201d but this does not equate to an \u201cestablished right to grant access\u201d unless Argentina\u2019s domestic law recognizes it as such. Since Argentina\u2019s competent authority granted the permit without community input, it can be inferred that no such right is established in its domestic law, and thus the state retains sole authority over access to resources in its EEZ.\n\nSimilarly, the obligation regarding access to traditional knowledge (TK) in NAGOYA_M016 is not absolute. It requires a Party to take measures \u201cIn accordance with domestic law\u201d and \u201cas appropriate.\u201d Argentina can argue that its domestic legal framework, which allows the national authority to grant permits, constitutes the \u201cappropriate\u201d measure and is fully \u201cin accordance with domestic law.\u201d The absence of a specific legal requirement for community PIC for TK in Argentina\u2019s domestic framework means the international obligation was not triggered in this specific manner. This interpretation is reinforced by the foundational text of CBD_M019, which prefaces the entire duty to respect TK with the crucial qualifier, \u201cSubject to its national legislation.\u201d This phrase explicitly grants Argentina the authority to define the scope and procedure for respecting TK through its own laws.\n\nFurthermore, NAGOYA_M014 obligates Parties to set out processes for obtaining community PIC only \u201cWhere applicable, and subject to domestic legislation.\u201d The fact that Argentina\u2019s permitting process does not include such a step indicates its determination that this requirement is not \u201capplicable\u201d in this instance, a determination that is within its discretion under the treaty. Finally, under NAGOYA_M013, Argentina fulfilled its duty by issuing a permit, which serves as \u201cevidence of the decision to grant prior informed consent.\u201d This refers to the PIC of the Party itself\u2014Argentina\u2014which is the only consent required since its domestic law does not establish a right for the IPLC to also grant consent.",
+    "conclusion": "This supports C2.",
+    "edges_support": [
+      "NAGOYA_M008|C2",
+      "NAGOYA_M016|C2",
+      "CBD_M019|C2",
+      "NAGOYA_M014|C2",
+      "NAGOYA_M013|C2",
+      "NAGOYA_M016|NAGOYA_M008",
+      "CBD_M019|NAGOYA_M008",
+      "NAGOYA_M014|NAGOYA_M008"
+    ]
+  }
+}

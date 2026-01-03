@@ -1,0 +1,9 @@
+question_number,conclusion,metric,precision,recall,f1,gold_size,pred_size
+Q1,C1,rules_selected,1.0,0.6666666666666666,0.8,6,4
+Q1,C1,edges_support,0.5714285714285714,0.4,0.47058823529411764,10,7
+Q1,C2,rules_selected,0.75,0.6,0.6666666666666666,5,4
+Q1,C2,edges_support,0.6,0.6,0.6,5,5
+Q2,C1,rules_selected,1.0,0.45454545454545453,0.625,11,5
+Q2,C1,edges_support,0.75,0.375,0.5,16,8
+Q2,C2,rules_selected,1.0,0.45454545454545453,0.625,11,5
+Q2,C2,edges_support,0.625,0.45454545454545453,0.5263157894736842,11,8
