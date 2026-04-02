@@ -1,0 +1,83 @@
+{
+  "question_number": "Q4",
+  "irac_C1": {
+    "issue": "Whether benefit-sharing obligations under the CBD, Nagoya Protocol, and BBNJ Agreement apply to the downstream commercial use of genetic resources and associated traditional knowledge collected from India's EEZ and an adjacent ABNJ, despite the lack of initial access agreements and the open publication of DSI.",
+    "rules_selected": [
+      {
+        "id": "NAGOYA_M045",
+        "text": "Each Party shall take appropriate, effective and proportionate legislative, administrative or policy measures to provide that genetic resources utilized within its jurisdiction have been accessed in accordance with prior informed consent and that mutually agreed terms have been established, as required by the domestic access and benefit-sharing legislation or regulatory requirements of the other Party."
+      },
+      {
+        "id": "NAGOYA_M048",
+        "text": "Each Party shall take appropriate, effective and proportionate legislative, administrative or policy measures, as appropriate, to provide that traditional knowledge associated with genetic resources utilized within their jurisdiction has been accessed in accordance with prior informed consent or approval and involvement of indigenous and local communities and that mutually agreed terms have been established, as required by domestic access and benefit-sharing legislation or regulatory requirements of the other Party where such indigenous and local communities are located."
+      },
+      {
+        "id": "NAGOYA_M006",
+        "text": "Each Party shall take legislative, administrative or policy measures, as appropriate, in order that the benefits arising from the utilization of traditional knowledge associated with genetic resources are shared in a fair and equitable way with indigenous and local communities holding such knowledge. Such sharing shall be upon mutually agreed terms."
+      },
+      {
+        "id": "NAGOYA_M003",
+        "text": "In accordance with Article 15, paragraphs 3 and 7 of the Convention, benefits arising from the utilization of genetic resources as well as subsequent applications and commercialization shall be shared in a fair and equitable way with the Party providing such resources that is the country of origin of such resources or a Party that has acquired the genetic resources in accordance with the Convention. Such sharing shall be upon mutually agreed terms."
+      },
+      {
+        "id": "BBNJ_M043",
+        "text": "1. The benefits arising from activities with respect to marine genetic resources and digital sequence information on marine genetic resources of areas beyond national jurisdiction shall be shared in a fair and equitable manner in accordance with this Part and contribute to the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction."
+      },
+      {
+        "id": "BBNJ_M047",
+        "text": "5. Monetary benefits from the utilization of marine genetic resources and digital sequence information on marine genetic resources of areas beyond national jurisdiction, including commercialization, shall be shared fairly and equitably, through the financial mechanism established under article 52, for the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction."
+      }
+    ],
+    "analysis": "Benefit-sharing obligations arise from the utilization of the genetic resources and associated traditional knowledge (TK), irrespective of the initial access failures or the open publication of Digital Sequence Information (DSI). The key trigger for these obligations is the \u201cutilization\u201d of the resources and TK by the Belgian company to create a commercial product.\n\nFor the resources from India\u2019s EEZ and the associated TK, the Nagoya Protocol places clear obligations on Belgium as the user country. NAGOYA_M045 requires Belgium to ensure that genetic resources \u201cutilized within its jurisdiction\u201d were accessed with prior informed consent (PIC) and on mutually agreed terms (MAT), as required by India. Similarly, NAGOYA_M048 imposes a parallel duty for the TK associated with those resources. The Belgian company\u2019s commercialization is a \u201cutilization\u201d that triggers these provisions. The fact that the initial consortium failed to secure PIC/MAT does not absolve the downstream user or its jurisdiction; rather, it highlights a case of non-compliance that Belgium is obligated to address. The underlying duties to share benefits, established by NAGOYA_M003 for genetic resources with India and NAGOYA_M006 for TK with the Indigenous community, remain attached to the resources and knowledge. The open-access status of the DSI is merely the medium of transfer; it does not erase the origin of the genetic information or the legal obligations tied to its commercial use.\n\nFor the resources from the ABNJ, the BBNJ Agreement creates a distinct benefit-sharing regime. BBNJ_M043 establishes a general principle that benefits from activities with respect to MGRs and DSI from ABNJ \u201cshall be shared in a fair and equitable manner.\u201d This obligation is specified for commercial use in BBNJ_M047, which mandates that \u201cMonetary benefits from the utilization of marine genetic resources and digital sequence information... including commercialization, shall be shared fairly and equitably.\u201d The Belgian company\u2019s use of DSI from ABNJ samples squarely falls under this provision. The obligation is not contingent on how the DSI was obtained but on its origin (ABNJ) and its use (commercialization). The fact that the DSI was in an open-access repository does not sever this link. The BBNJ framework anticipates downstream use of DSI and establishes a system for sharing benefits from that use.",
+    "conclusion": "This supports C1.",
+    "edges_support": [
+      "NAGOYA_M045|C1",
+      "NAGOYA_M048|C1",
+      "NAGOYA_M006|C1",
+      "NAGOYA_M003|C1",
+      "BBNJ_M043|C1",
+      "BBNJ_M047|C1",
+      "BBNJ_M047|BBNJ_M043"
+    ]
+  },
+  "irac_C2": {
+    "issue": "Whether benefit-sharing obligations under the CBD, Nagoya Protocol, and BBNJ Agreement are extinguished or do not arise for the downstream commercial use of DSI when it is accessed from an open-access repository, and where initial access to the underlying resources and knowledge lacked formal agreements.",
+    "rules_selected": [
+      {
+        "id": "NAGOYA_M003",
+        "text": "In accordance with Article 15, paragraphs 3 and 7 of the Convention, benefits arising from the utilization of genetic resources as well as subsequent applications and commercialization shall be shared in a fair and equitable way with the Party providing such resources that is the country of origin of such resources or a Party that has acquired the genetic resources in accordance with the Convention. Such sharing shall be upon mutually agreed terms."
+      },
+      {
+        "id": "NAGOYA_M045",
+        "text": "Each Party shall take appropriate, effective and proportionate legislative, administrative or policy measures to provide that genetic resources utilized within its jurisdiction have been accessed in accordance with prior informed consent and that mutually agreed terms have been established, as required by the domestic access and benefit-sharing legislation or regulatory requirements of the other Party."
+      },
+      {
+        "id": "NAGOYA_M048",
+        "text": "Each Party shall take appropriate, effective and proportionate legislative, administrative or policy measures, as appropriate, to provide that traditional knowledge associated with genetic resources utilized within their jurisdiction has been accessed in accordance with prior informed consent or approval and involvement of indigenous and local communities and that mutually agreed terms have been established, as required by domestic access and benefit-sharing legislation or regulatory requirements of the other Party where such indigenous and local communities are located."
+      },
+      {
+        "id": "NAGOYA_M015",
+        "text": "Pursuant to paragraph 1 above, each Party requiring prior informed consent shall take the necessary legislative, administrative or policy measures, as appropriate, to: ... (g) Establish clear rules and procedures for requiring and establishing mutually agreed terms. Such terms shall be set out in writing and may include, inter alia: (i) A dispute settlement clause; (ii) Terms on benefit-sharing, including in relation to intellectual property rights; (iii) Terms on subsequent third-party use, if any; and (iv) Terms on changes of intent, where applicable."
+      },
+      {
+        "id": "BBNJ_M047",
+        "text": "5. Monetary benefits from the utilization of marine genetic resources and digital sequence information on marine genetic resources of areas beyond national jurisdiction, including commercialization, shall be shared fairly and equitably, through the financial mechanism established under article 52, for the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction."
+      },
+      {
+        "id": "BBNJ_M049",
+        "text": "7. The Conference of the Parties shall decide on the modalities for the sharing of monetary benefits from the utilization of marine genetic resources and digital sequence information on marine genetic resources of areas beyond national jurisdiction, taking into account the recommendations of the access and benefit-sharing committee established under article 15. If all efforts to reach consensus have been exhausted, a decision shall be adopted by a three-fourths majority of the Parties present and voting. The payments shall be made through the special fund established under article 52. The modalities may include the following: (a) Milestone payments; (b) Payments or contributions related to the commercialization of products, including payment of a percentage of the revenue from sales of products; (c) A tiered fee, paid on a periodic basis, based on a diversified set of indicators measuring the aggregate level of activities by a Party; (d) Other forms as decided by the Conference of the Parties, taking into account recommendations of the access and benefit-sharing committee."
+      }
+    ],
+    "analysis": "Benefit-sharing obligations do not arise for the Belgian company because the legal and procedural prerequisites for such obligations have not been met. The entire access and benefit-sharing (ABS) framework relies on a chain of custody and contractual agreements that are absent here.\n\nUnder the Nagoya Protocol, the duty to share benefits is explicitly linked to specific procedural steps. NAGOYA_M003 states that benefit sharing \u201cshall be upon mutually agreed terms.\u201d Since no access agreements were concluded and no mutually agreed terms (MAT) were established with India or the Indigenous community, this foundational condition is not met. Consequently, there is no defined obligation to share benefits. Furthermore, the user-country obligations on Belgium under NAGOYA_M045 (for genetic resources) and NAGOYA_M048 (for TK) are triggered only by what is \u201crequired by the domestic access and benefit-sharing legislation or regulatory requirements of the other Party.\u201d The facts do not state that India has such legislation in place that would apply to DSI accessed from an open repository by an unaffiliated foreign company. The absence of tracking mechanisms in Belgium, a failure to implement measures like those in NAGOYA_M015, further breaks the chain of compliance. The Belgian company simply accessed publicly available data; without a domestic legal framework in Belgium translating the Protocol\u2019s aims into specific duties for such situations, no obligation attaches to the company.\n\nSimilarly, the BBNJ benefit-sharing obligation is not currently operational or enforceable against the Belgian company. While BBNJ_M047 creates a duty to share monetary benefits from the commercialization of DSI, this obligation is not self-executing. BBNJ_M049 clarifies that the specific \u201cmodalities for the sharing of monetary benefits\u201d are to be decided by the Conference of the Parties. Without these modalities being established, the obligation remains inchoate. The duty in BBNJ_M047 falls upon the Party (Belgium) to implement, likely through domestic legislation that creates a payment system linked to the financial mechanism. The facts state Belgium has no such mechanism. Therefore, a private company accessing publicly available DSI cannot be held to an obligation that its own government has not implemented and for which the international modalities may not yet exist.",
+    "conclusion": "This supports C2.",
+    "edges_support": [
+      "NAGOYA_M003|C2",
+      "NAGOYA_M045|C2",
+      "NAGOYA_M048|C2",
+      "NAGOYA_M015|C2",
+      "BBNJ_M047|C2",
+      "BBNJ_M049|C2",
+      "BBNJ_M049|BBNJ_M047"
+    ]
+  }
+}
