@@ -1,3 +1,4 @@
 ground_truth_irac.json
 .env
 irac_outputs/with*
+irac_outputs/updated_cot
