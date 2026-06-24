@@ -1,4 +1,16 @@
-ground_truth_irac.json
+# Secrets
 .env
+
+# Ground truth (held privately)
+data/ground_truth_irac.json
+ground_truth_irac.json
+
+# Python environments & caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model prediction outputs
+pred_*.json
 irac_outputs/with*
-irac_outputs/updated_cot
