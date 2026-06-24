@@ -1,0 +1,11 @@
+# Core dependencies for the IRAC LLM-evaluation pipeline
+# (pinned to versions used during development)
+openai==2.30.0
+pandas==3.0.2
+nltk==3.9.4
+python-dotenv==1.2.2
+
+# Visualization (with vs without reasoning charts)
+plotly==6.7.0
+nbformat==5.10.4
+kaleido==1.2.0
