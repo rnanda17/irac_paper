@@ -13,7 +13,7 @@ from pathlib import Path
 import pandas as pd
 from nltk.metrics.scores import precision, recall, f_measure
 
-GROUND_TRUTH_PATH = Path("data/ground_truth_irac.json")
+GROUND_TRUTH_PATH = Path("ground_truth_irac.json")
 OUTDIR = Path("irac_outputs/updated_cot")
 
 # Preferred ordering for a tidy output (model order, then Q1..Q5).
@@ -90,7 +90,7 @@ def main():
     df["_t"] = df["metric"].map({"rules_selected": 0, "edges_support": 1})
     df = df.sort_values(["_m", "_q", "_c", "_t"]).drop(columns=["_m", "_q", "_c", "_t"])
 
-    out = OUTDIR / "metrics.csv"
+    out = OUTDIR / "metrics_latest.csv"
     df.to_csv(out, index=False)
     print(f"Wrote {len(df)} rows from {len(files)} JSON files -> {out}")
     print(df.groupby(["model"])["f1"].mean().reset_index().to_string(index=False))
